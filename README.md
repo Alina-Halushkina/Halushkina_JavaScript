@@ -20,12 +20,28 @@ npm run test
 
 Ref. is [tests](./src/task1.spec.js).
 
+To use console:
+```shell
+node src/task1.console.js
+```
+
 1.2. If the entered name matches “John”, then output “Hello, John”, if not, then output "There is no such name"
 
 Ref. is [tests](./src/task2.spec.js).
 
+To use console:
+```shell
+node src/task2.console.js
+```
+
 1.3. There is a numeric array at the input, it is necessary to output array elements that are multiples of 3
 Ref. is [tests](./src/task3.spec.js).
+
+To use console:
+```shell
+node src/task3.console.js
+```
+> Expected input is an array as a string: `[2, 6, 9, 13]`
 
 2. Bracket sequence
 
@@ -39,3 +55,10 @@ Ref. is [tests](./src/task3.spec.js).
 - The sequence should look like `[((())()(()))]`
 
 The sequence validated in [tests](./src/sequence.spec.js).
+
+To use console:
+```shell
+node src/sequence.console.js
+```
+
+> Expected input is a string: `[()]`
